@@ -35,7 +35,7 @@ export default function AttractionCard(props) {
           <Typography gutterBottom variant="h5" component="h2">
             {attraction.name}
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
+          <Typography variant="body2" color="textSecondary" component="p" noWrap={true}>
             {attraction.detail}
           </Typography>
         </CardContent>
