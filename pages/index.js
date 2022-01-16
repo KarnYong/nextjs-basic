@@ -10,7 +10,7 @@ function HomePage({ data }) {
     <Container maxWidth="lg">
       <div style={{marginTop: '1em'}}>
         <Typography variant="h4" gutterBottom>
-          Around the World!!
+          Around the World!
         </Typography>
         <Grid container spacing={3}>
           {data.map((attraction) => (
